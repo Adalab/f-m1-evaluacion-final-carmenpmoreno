@@ -25,6 +25,8 @@
     text-align: center;
     width: 290px;
     height: 110px;
+    margin-top: 284px;
+    margin-bottom: 10px;
 }
 .claim {
     font-weight: 400;
@@ -32,36 +34,5 @@
     text-align: center;
     display:block;
     color: $snowwhite;
-}
-// BUTTON MENU
-.button__hero {
-    background-color: $buttonmenu;
-    border: $buttonmenu;
-    width: 44px;
-    height: 44px;
-    position: fixed;
-    top:0;
-    left: 0; 
-}
-.button-img__hero {
-    width: 16px;
-    height: 14px;
-    position: relative;
-}
-// BUTTON ARROW
-.button-arrow__hero {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: $snowwhite;
-    border: $snowwhite;
-    margin-bottom: 45px;
-}
-.button-arrow-img__hero {
-    color: $buttonOrange;
-    width: 20px;
-    height: 12px;
-    position: relative;
-    transform: translateY(20%);
-
+    margin:0;
 }

@@ -21,34 +21,3 @@
 .item-button {
     padding-bottom: 60px;
 }
-
-// BUTTON
-.button-box__reasons {
-    height: 45px;
-    width: 184px;
-    border-radius: 22.5px;
-    border: solid 2px $buttonOrange;
-    background-color: $buttonOrange;
-    text-align: center;
-}
-.button__reasons {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-color: $buttonOrange;
-    border: $snowwhite;
-    border-radius: 40%;
-    height: 45px;
-    text-transform: capitalize;
-    font-family: $mainFont;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 45px;
-    color: $snowwhite;
-    text-decoration: none;
-    transition: 1s ease;
-    &:hover {
-        color: black;
-        font-size: 24px;
-    }
-}
