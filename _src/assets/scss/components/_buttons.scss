@@ -38,9 +38,9 @@
 .button-arrow__footer {
     margin-top: 0;
     position: relative;
-    .button-arrow-img {
-        transform: scale(4);
-    }
+}
+.button-arrow__footer .button-arrow-img {
+    transform: scale(2);
 }
 // BUTTON GO
 .button-box__go {
