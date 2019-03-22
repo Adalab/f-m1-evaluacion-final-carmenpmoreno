@@ -33,6 +33,7 @@
     display:block;
     color: $snowwhite;
 }
+// BUTTON MENU
 .button__hero {
     background-color: $buttonmenu;
     border: $buttonmenu;
@@ -41,13 +42,13 @@
     position: fixed;
     top:0;
     left: 0; 
-    padding: 0;
 }
 .button-img__hero {
     width: 16px;
     height: 14px;
     position: relative;
 }
+// BUTTON ARROW
 .button-arrow__hero {
     width: 45px;
     height: 45px;
