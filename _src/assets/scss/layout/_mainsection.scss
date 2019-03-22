@@ -46,6 +46,7 @@
     appearance: none;
     background-color: $snowwhite;
     border: $snowwhite;
+    border-radius: 30%;
     height: 45px;
     text-transform: capitalize;
     font-family: $mainFont;
@@ -54,4 +55,9 @@
     line-height: 45px;
     color: $buttonOrange;
     text-decoration: none;
+    transition: 2s ease;
+    &:hover {
+        color: black;
+        font-size: 24px;
+    }
 }
