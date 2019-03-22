@@ -9,11 +9,57 @@
         max-width: 1100px;
     }
 }
-// SECTION CLASS LOOKING
+// SECTIONS FONTS
+.title__main {
+    font-size: 24px;
+    font-weight: 700;
+}
+.text__main {
+    font-size: 18px;
+    .subtitle__main {
+        font-weight: 700;
+    }
+}
+// SECTION LOOKING
 
-.claim__looking, .title__looking {
+.claim__looking, .title__main {
     text-transform: capitalize;
 }
-.buttom__looking {
-    text-transform: capitalize;
+.button__box {
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    display: block;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .button__go {
+        border: solid 2px $buttonOrange;
+    }
+
 }
+.button__main {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: $snowwhite;
+    text-transform: capitalize;
+    font-family: $mainFont;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    height: 45px;
+    border-radius: 30%;
+    .button__go  {
+        color: $buttonOrange;
+        border: $snowwhite;
+    }
+
+}
+
+.claim__looking {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8ccbea;
+}
+// SECTION BUTTONS
