@@ -1,17 +1,16 @@
-.footer__wrap * {
-    border: solid 1px blue;
-}
-
 .footer__section {
     background-color: $bottomSection;
     text-align: center;
 }
+
 .footer__wrap {
     @media all and (min-width:768px) {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: flex-start;
+        align-items: flex-start;            
+    }
+    @media all and (min-width:1200px) {
     }
 }
 .footer__options {
