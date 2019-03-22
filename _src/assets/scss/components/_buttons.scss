@@ -49,6 +49,9 @@
     border-radius: 22.5px;
     border: solid 2px $buttonOrange;
     text-align: center;
+    @media all and (min-width:768px) {
+        margin-bottom: 60px;
+    }
 }
 .button__go {
     -webkit-appearance: none;

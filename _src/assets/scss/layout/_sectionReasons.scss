@@ -10,7 +10,6 @@
     text-align: center;
     @media all and (min-width:768px) {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
     }
 }
 .item-button, .item-title {
@@ -24,8 +23,8 @@
 }
 
 .item-button {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     @media all and (min-width:768px) {
-        margin-bottom: 50px; 
+        padding-bottom: 50px; 
     }
 }
