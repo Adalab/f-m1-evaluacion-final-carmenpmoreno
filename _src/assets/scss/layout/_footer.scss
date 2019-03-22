@@ -1,0 +1,27 @@
+.footer__section {
+    background-color: $bottomSection;
+    text-align: center;
+}
+.footer__options {
+    padding-top: 60px;
+    padding-bottom: 30px; 
+}
+.footer__link {
+    text-decoration: none;
+    color: $snowwhite;
+    text-transform: uppercase;
+    display: block;
+}
+.footer__rrss {
+    padding-bottom: 30px; 
+}
+.copy {
+    padding-bottom: 45px;
+}
+.copy__element {
+    color: $snowwhite;
+    display: block;
+}
+.copy__hearth {
+    color: $buttonOrange;
+}
