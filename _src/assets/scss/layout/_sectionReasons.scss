@@ -1,3 +1,23 @@
+// SECTION
+.Reasons {
+    background-color: $colorReasons;
+}
+.item {
+    border: solid 1px blue;
+}
+.grid-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 3fr;
+}
+.item-button, .item-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 // BUTTON
 .button-box__reasons {
     height: 45px;
