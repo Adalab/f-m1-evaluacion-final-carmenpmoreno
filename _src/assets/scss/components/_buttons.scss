@@ -38,6 +38,7 @@
 .button-arrow__footer {
     margin-top: 0;
     position: relative;
+    transform: translateY(-50%);
 }
 .button-arrow__footer .button-arrow-img {
     transform: scale(2);
